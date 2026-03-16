@@ -1,0 +1,30 @@
+{% extends "admin/base_site.html" %}
+{% load static %}
+
+{% block content %}
+<h1>Affecter les utilisateurs aux groupes</h1>
+
+<form method="post">
+    {% csrf_token %}
+    <div>
+        <label for="user">Sélectionnez l'utilisateur :</label>
+        <select name="user_id" id="user">
+            {% for user in users %}
+                <option value="{{ user.id }}">{{ user.email }}</option>
+            {% endfor %}
+        </select>
+    </div>
+
+    <div>
+        <label for="groups">Sélectionnez les groupes :</label>
+        <select name="group_ids" id="groups" multiple>
+            {% for group in groups %}
+                <option value="{{ group.id }}">{{ group.name }}</option>
+            {% endfor %}
+        </select>
+    </div>
+
+    <button type="submit">Affecter</button>
+</form>
+
+{% endblock %}

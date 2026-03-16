@@ -1,0 +1,50 @@
+{% extends 'index.html' %}
+{% block style %}
+{% endblock %}
+
+{% block content %}
+    <div class="container-fluid">
+        <div class="card">
+            <div class="card-header">
+                <div class="flex justify-between items-center">
+                    <h4 class="card-title">Fixed Header</h4>
+                </div>
+            </div>
+            <div class="p-6">
+    
+                <div id="table-fixed-header"></div>
+                <table id="monTableau" class="display" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>Nom</th>
+                            <th>Position</th>
+                            <th>Bureau</th>
+                            <th>Âge</th>
+                            <th>Date de début</th>
+                            <th>Salaire</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Tiger Nixon</td>
+                            <td>Système Architecte</td>
+                            <td>Edinburgh</td>
+                            <td>61</td>
+                            <td>2011/04/25</td>
+                            <td>$320,800</td>
+                        </tr>
+                        <!-- Ajoutez d'autres lignes selon vos données -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+{% endblock %}
+{% block 'script' %}
+    <script>
+        $(document).ready( function () {
+            $('#monTableau').DataTable(); // Initialisation de DataTable sur notre tableau
+        } );
+    </script>
+{% endblock %}

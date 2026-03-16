@@ -1,0 +1,16 @@
+/* custom_admin.css */
+.tooltip {
+    position: absolute;
+    background-color: #333; /* Tooltip background color */
+    color: #fff; /* Tooltip text color */
+    padding: 5px;
+    border-radius: 4px;
+    white-space: nowrap; /* Prevent text wrapping */
+    z-index: 1000; /* Make sure it's on top */
+    opacity: 0; /* Start hidden */
+    transition: opacity 0.2s; /* Smooth transition */
+}
+
+.tooltip.visible {
+    opacity: 1; /* Show tooltip */
+}

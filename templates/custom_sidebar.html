@@ -1,0 +1,8 @@
+<ul class="nav nav-pills flex-column">
+    {% for model in models %}
+        <li class="nav-item tooltip">
+            <a class="nav-link" href="{% url model.admin_url %}">{{ model.name }}</a>
+            <span class="tooltiptext">{{ model._meta.verbose_name }}</span>  <!-- Affiche la description -->
+        </li>
+    {% endfor %}
+</ul>

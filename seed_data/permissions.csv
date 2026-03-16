@@ -1,0 +1,257 @@
+id,name,content_type_id,codename
+1,Can add log entry,1,add_logentry
+2,Can change log entry,1,change_logentry
+3,Can delete log entry,1,delete_logentry
+4,Can view log entry,1,view_logentry
+5,Can add permission,2,add_permission
+6,Can change permission,2,change_permission
+7,Can delete permission,2,delete_permission
+8,Can view permission,2,view_permission
+9,Can add group,3,add_group
+10,Can change group,3,change_group
+11,Can delete group,3,delete_group
+12,Can view group,3,view_group
+13,Can add content type,4,add_contenttype
+14,Can change content type,4,change_contenttype
+15,Can delete content type,4,delete_contenttype
+16,Can view content type,4,view_contenttype
+17,Can add session,5,add_session
+18,Can change session,5,change_session
+19,Can delete session,5,delete_session
+20,Can view session,5,view_session
+21,Can add categorie,6,add_categorie
+22,Can change categorie,6,change_categorie
+23,Can delete categorie,6,delete_categorie
+24,Can view categorie,6,view_categorie
+25,Can add compte,7,add_compte
+26,Can change compte,7,change_compte
+27,Can delete compte,7,delete_compte
+28,Can view compte,7,view_compte
+29,Can add emplacement,8,add_emplacement
+30,Can change emplacement,8,change_emplacement
+31,Can delete emplacement,8,delete_emplacement
+32,Can view emplacement,8,view_emplacement
+33,Can add fichier,9,add_fichier
+34,Can change fichier,9,change_fichier
+35,Can delete fichier,9,delete_fichier
+36,Can view fichier,9,view_fichier
+37,Can add marque,10,add_marque
+38,Can change marque,10,change_marque
+39,Can delete marque,10,delete_marque
+40,Can view marque,10,view_marque
+41,Can add nature,11,add_nature
+42,Can change nature,11,change_nature
+43,Can delete nature,11,delete_nature
+44,Can view nature,11,view_nature
+45,Can add operation,12,add_operation
+46,Can change operation,12,change_operation
+47,Can delete operation,12,delete_operation
+48,Can view operation,12,view_operation
+49,Can add type_tag,13,add_type_tag
+50,Can change type_tag,13,change_type_tag
+51,Can delete type_tag,13,delete_type_tag
+52,Can view type_tag,13,view_type_tag
+53,Can add Utilisateur,14,add_userweb
+54,Can change Utilisateur,14,change_userweb
+55,Can delete Utilisateur,14,delete_userweb
+56,Can view Utilisateur,14,view_userweb
+57,Can add Super Utilisateur,15,add_superuserproxy
+58,Can change Super Utilisateur,15,change_superuserproxy
+59,Can delete Super Utilisateur,15,delete_superuserproxy
+60,Can view Super Utilisateur,15,view_superuserproxy
+61,Can add departement,16,add_departement
+62,Can change departement,16,change_departement
+63,Can delete departement,16,delete_departement
+64,Can view departement,16,view_departement
+69,Can add fournisseur,17,add_fournisseur
+70,Can change fournisseur,17,change_fournisseur
+71,Can delete fournisseur,17,delete_fournisseur
+72,Can view fournisseur,17,view_fournisseur
+73,Can add article,18,add_article
+74,Can change article,18,change_article
+75,Can delete article,18,delete_article
+76,Can view article,18,view_article
+77,Can add historical categorie,19,add_historicalcategorie
+78,Can change historical categorie,19,change_historicalcategorie
+79,Can delete historical categorie,19,delete_historicalcategorie
+80,Can view historical categorie,19,view_historicalcategorie
+81,Can add historical departement,20,add_historicaldepartement
+82,Can change historical departement,20,change_historicaldepartement
+83,Can delete historical departement,20,delete_historicaldepartement
+84,Can view historical departement,20,view_historicaldepartement
+85,Can add historical fichier,21,add_historicalfichier
+86,Can change historical fichier,21,change_historicalfichier
+87,Can delete historical fichier,21,delete_historicalfichier
+88,Can view historical fichier,21,view_historicalfichier
+89,Can add historical fournisseur,22,add_historicalfournisseur
+90,Can change historical fournisseur,22,change_historicalfournisseur
+91,Can delete historical fournisseur,22,delete_historicalfournisseur
+92,Can view historical fournisseur,22,view_historicalfournisseur
+93,Can add historical inventaire,23,add_historicalinventaire
+94,Can change historical inventaire,23,change_historicalinventaire
+95,Can delete historical inventaire,23,delete_historicalinventaire
+96,Can view historical inventaire,23,view_historicalinventaire
+97,Can add historical  Local,24,add_historicallocation
+98,Can change historical  Local,24,change_historicallocation
+99,Can delete historical  Local,24,delete_historicallocation
+100,Can view historical  Local,24,view_historicallocation
+101,Can add historical marque,25,add_historicalmarque
+102,Can change historical marque,25,change_historicalmarque
+103,Can delete historical marque,25,delete_historicalmarque
+104,Can view historical marque,25,view_historicalmarque
+105,Can add historical nature,26,add_historicalnature
+106,Can change historical nature,26,change_historicalnature
+107,Can delete historical nature,26,delete_historicalnature
+108,Can view historical nature,26,view_historicalnature
+109,Can add historical operation,27,add_historicaloperation
+110,Can change historical operation,27,change_historicaloperation
+111,Can delete historical operation,27,delete_historicaloperation
+112,Can view historical operation,27,view_historicaloperation
+113,Can add historical  Famille,28,add_historicalproduit
+114,Can change historical  Famille,28,change_historicalproduit
+115,Can delete historical  Famille,28,delete_historicalproduit
+116,Can view historical  Famille,28,view_historicalproduit
+117,Can add historical type_tag,29,add_historicaltype_tag
+118,Can change historical type_tag,29,change_historicaltype_tag
+119,Can delete historical type_tag,29,delete_historicaltype_tag
+120,Can view historical type_tag,29,view_historicaltype_tag
+121,Can add historical Utilisateur,30,add_historicaluserweb
+122,Can change historical Utilisateur,30,change_historicaluserweb
+123,Can delete historical Utilisateur,30,delete_historicaluserweb
+124,Can view historical Utilisateur,30,view_historicaluserweb
+125,Can add inventaire,31,add_inventaire
+126,Can change inventaire,31,change_inventaire
+127,Can delete inventaire,31,delete_inventaire
+128,Can view inventaire,31,view_inventaire
+129,Can add historical inventaire_emplacement,32,add_historicalinventaire_emplacement
+130,Can change historical inventaire_emplacement,32,change_historicalinventaire_emplacement
+131,Can delete historical inventaire_emplacement,32,delete_historicalinventaire_emplacement
+132,Can view historical inventaire_emplacement,32,view_historicalinventaire_emplacement
+133,Can add inventaire_emplacement,33,add_inventaire_emplacement
+134,Can change inventaire_emplacement,33,change_inventaire_emplacement
+135,Can delete inventaire_emplacement,33,delete_inventaire_emplacement
+136,Can view inventaire_emplacement,33,view_inventaire_emplacement
+137,Can add item,34,add_item
+138,Can change item,34,change_item
+139,Can delete item,34,delete_item
+140,Can view item,34,view_item
+141,Can add historical detail_inventaire,35,add_historicaldetail_inventaire
+142,Can change historical detail_inventaire,35,change_historicaldetail_inventaire
+143,Can delete historical detail_inventaire,35,delete_historicaldetail_inventaire
+144,Can view historical detail_inventaire,35,view_historicaldetail_inventaire
+145,Can add historical archive item,36,add_historicalarchiveitem
+146,Can change historical archive item,36,change_historicalarchiveitem
+147,Can delete historical archive item,36,delete_historicalarchiveitem
+148,Can view historical archive item,36,view_historicalarchiveitem
+149,Can add detail_inventaire,37,add_detail_inventaire
+150,Can change detail_inventaire,37,change_detail_inventaire
+151,Can delete detail_inventaire,37,delete_detail_inventaire
+152,Can view detail_inventaire,37,view_detail_inventaire
+153,Can add archive item,38,add_archiveitem
+154,Can change archive item,38,change_archiveitem
+155,Can delete archive item,38,delete_archiveitem
+156,Can view archive item,38,view_archiveitem
+157,Can add  Local,39,add_location
+158,Can change  Local,39,change_location
+159,Can delete  Local,39,delete_location
+160,Can view  Local,39,view_location
+161,Can add historical zone,40,add_historicalzone
+162,Can change historical zone,40,change_historicalzone
+163,Can delete historical zone,40,delete_historicalzone
+164,Can view historical zone,40,view_historicalzone
+165,Can add historical operation_article,41,add_historicaloperation_article
+166,Can change historical operation_article,41,change_historicaloperation_article
+167,Can delete historical operation_article,41,delete_historicaloperation_article
+168,Can view historical operation_article,41,view_historicaloperation_article
+169,Can add operation_article,42,add_operation_article
+170,Can change operation_article,42,change_operation_article
+171,Can delete operation_article,42,delete_operation_article
+172,Can view operation_article,42,view_operation_article
+173,Can add personne,43,add_personne
+174,Can change personne,43,change_personne
+175,Can delete personne,43,delete_personne
+176,Can view personne,43,view_personne
+177,Can add historical transfer historique,44,add_historicaltransferhistorique
+178,Can change historical transfer historique,44,change_historicaltransferhistorique
+179,Can delete historical transfer historique,44,delete_historicaltransferhistorique
+180,Can view historical transfer historique,44,view_historicaltransferhistorique
+181,Can add  Famille,45,add_produit
+182,Can change  Famille,45,change_produit
+183,Can delete  Famille,45,delete_produit
+184,Can view  Famille,45,view_produit
+185,Can add historical article,46,add_historicalarticle
+186,Can change historical article,46,change_historicalarticle
+187,Can delete historical article,46,delete_historicalarticle
+188,Can view historical article,46,view_historicalarticle
+189,Can add tag,47,add_tag
+190,Can change tag,47,change_tag
+191,Can delete tag,47,delete_tag
+192,Can view tag,47,view_tag
+193,Can add historical tag history,48,add_historicaltaghistory
+194,Can change historical tag history,48,change_historicaltaghistory
+195,Can delete historical tag history,48,delete_historicaltaghistory
+196,Can view historical tag history,48,view_historicaltaghistory
+197,Can add historical item,49,add_historicalitem
+198,Can change historical item,49,change_historicalitem
+199,Can delete historical item,49,delete_historicalitem
+200,Can view historical item,49,view_historicalitem
+201,Can add tag emplacement,50,add_tagemplacement
+202,Can change tag emplacement,50,change_tagemplacement
+203,Can delete tag emplacement,50,delete_tagemplacement
+204,Can view tag emplacement,50,view_tagemplacement
+205,Can add historical tag history emplacement,51,add_historicaltaghistoryemplacement
+206,Can change historical tag history emplacement,51,change_historicaltaghistoryemplacement
+207,Can delete historical tag history emplacement,51,delete_historicaltaghistoryemplacement
+208,Can view historical tag history emplacement,51,view_historicaltaghistoryemplacement
+209,Can add tag history,52,add_taghistory
+210,Can change tag history,52,change_taghistory
+211,Can delete tag history,52,delete_taghistory
+212,Can view tag history,52,view_taghistory
+213,Can add tag history emplacement,53,add_taghistoryemplacement
+214,Can change tag history emplacement,53,change_taghistoryemplacement
+215,Can delete tag history emplacement,53,delete_taghistoryemplacement
+216,Can view tag history emplacement,53,view_taghistoryemplacement
+217,Can add transfer historique,54,add_transferhistorique
+218,Can change transfer historique,54,change_transferhistorique
+219,Can delete transfer historique,54,delete_transferhistorique
+220,Can view transfer historique,54,view_transferhistorique
+221,Can add historical tag emplacement,55,add_historicaltagemplacement
+222,Can change historical tag emplacement,55,change_historicaltagemplacement
+223,Can delete historical tag emplacement,55,delete_historicaltagemplacement
+224,Can view historical tag emplacement,55,view_historicaltagemplacement
+225,Can add historical tag,56,add_historicaltag
+226,Can change historical tag,56,change_historicaltag
+227,Can delete historical tag,56,delete_historicaltag
+228,Can view historical tag,56,view_historicaltag
+229,Can add zone,57,add_zone
+230,Can change zone,57,change_zone
+231,Can delete zone,57,delete_zone
+232,Can view zone,57,view_zone
+233,Can add historical emplacement,58,add_historicalemplacement
+234,Can change historical emplacement,58,change_historicalemplacement
+235,Can delete historical emplacement,58,delete_historicalemplacement
+236,Can view historical emplacement,58,view_historicalemplacement
+237,Can add Token,59,add_token
+238,Can change Token,59,change_token
+239,Can delete Token,59,delete_token
+240,Can view Token,59,view_token
+241,Can add Token,60,add_tokenproxy
+242,Can change Token,60,change_tokenproxy
+243,Can delete Token,60,delete_tokenproxy
+244,Can view Token,60,view_tokenproxy
+245,Can add auth token,61,add_authtoken
+246,Can change auth token,61,change_authtoken
+247,Can delete auth token,61,delete_authtoken
+248,Can view auth token,61,view_authtoken
+249,Can add blacklisted token,62,add_blacklistedtoken
+250,Can change blacklisted token,62,change_blacklistedtoken
+251,Can delete blacklisted token,62,delete_blacklistedtoken
+252,Can view blacklisted token,62,view_blacklistedtoken
+253,Can add outstanding token,63,add_outstandingtoken
+254,Can change outstanding token,63,change_outstandingtoken
+255,Can delete outstanding token,63,delete_outstandingtoken
+256,Can view outstanding token,63,view_outstandingtoken
+257,Importer article,18,Importer_article
+258,Exporter items,34,Exporter_iems
+259,Lancer emplacements,33,Lancer_emplacements
+260,voir articles consommes,18,voir_articles_consommes
